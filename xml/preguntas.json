@@ -1,0 +1,126 @@
+{
+    "pregunta": [
+      {
+        "-id": "pregunta01",
+        "tipus": "text",
+        "text": "1x1x1+1x5-1/1",
+        "resposta": "5"
+      },
+      {
+        "-id": "pregunta02",
+        "tipus": "text",
+        "text": "¿Que número es igual si se lee normal o del revés?",
+        "resposta": "Capicua"
+      },
+      {
+        "-id": "pregunta03",
+        "tipus": "select",
+        "text": "¿Que tipo de ser vivo eres?",
+        "opcio": [
+          "Perro",
+          "Gato",
+          "Rinoceronte",
+          "No lo tengo claro"
+        ],
+        "resposta": "4"
+      },
+      {
+        "-id": "pregunta04",
+        "tipus": "select",
+        "text": "Y tu edad,¿que?¿Cual es?",
+        "opcio": [
+          "Esto no se pregunta",
+          "73",
+          "Azul",
+          "¿Este formulario no iba sobre astronomía?"
+        ],
+        "resposta": "1"
+      },
+      {
+        "-id": "pregunta05",
+        "tipus": "radio",
+        "text": "¿Dondeconsigoalguienquemearreglelabarraespaciadorademiteclado?",
+        "opcio": [
+          "En un fontanero",
+          "Llamando a un electricista",
+          "Con reiniciar basta",
+          "Llamando a un informático"
+        ],
+        "resposta": "4"
+      },
+      {
+        "-id": "pregunta06",
+        "tipus": "radio",
+        "text": "Si a una rueda dentada se le cae un diente….¿viene el ratón Pérez?",
+        "opcio": [
+          "Sí, pero no deja dinero",
+          "No, imposible, negativo.",
+          "Sí y te deja leche y unas galletas",
+          "Prueba a reiniciar."
+        ],
+        "resposta": "4"
+      },
+      {
+        "-id": "pregunta07",
+        "tipus": "multiple",
+        "text": "A ver si sabes de LoL, ¿que campeones son femeninos?",
+        "opcio": [
+          "Tristana",
+          "Illaoi",
+          "Teemo",
+          "Kha'zix"
+        ],
+        "resposta": [
+          "1",
+          "2"
+        ]
+      },
+      {
+        "-id": "pregunta08",
+        "tipus": "multiple",
+        "text": "¿Cuáles de los siguientes personajes son tiradores?",
+        "opcio": [
+          "Lux",
+          "Lucian",
+          "Miss Fortune",
+          "Brrrraum"
+        ],
+        "resposta": [
+          "2",
+          "3"
+        ]
+      },
+      {
+        "-id": "pregunta09",
+        "tipus": "checkbox",
+        "text": "¿Cual es el mejor sistema operativo de la historia de la informática?",
+        "opcio": [
+          "Linux",
+          "Linux",
+          "Linux",
+          "Linux"
+        ],
+        "resposta": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "-id": "pregunta10",
+        "tipus": "checkbox",
+        "text": "¿Donde nacistes?",
+        "opcio": [
+          "La Tierra",
+          "Saturno",
+          "Sistema Solar",
+          "Madagascar"
+        ],
+        "resposta": [
+          "1",
+          "3"
+        ]
+      }
+    ]
+  }

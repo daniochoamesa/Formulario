@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preguntes>
+ <pregunta id='pregunta01'>
+  <tipus>text</tipus>
+  <text>1x1x1+1x5-1/1</text>
+  <resposta>5</resposta>
+ </pregunta>
+ <pregunta id='pregunta02'>
+  <tipus>text</tipus>
+  <text>¿Que número es igual si se lee normal o del revés?</text>
+  <resposta>Capicua</resposta>
+ </pregunta>
+ <pregunta id='pregunta03'>
+  <tipus>select</tipus>
+  <text>¿Que tipo de ser vivo eres?</text>
+  <opcio>Perro</opcio>
+  <opcio>Gato</opcio> 
+  <opcio>Rinoceronte</opcio>
+  <opcio>No lo tengo claro</opcio>
+  <resposta>4</resposta> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </pregunta>
+ <pregunta id='pregunta04'>
+  <tipus>select</tipus>
+  <text>Y tu edad,¿que?¿Cual es?</text>
+  <opcio>Esto no se pregunta</opcio>
+  <opcio>73</opcio> 
+  <opcio>Azul</opcio> 
+  <opcio>¿Este formulario no iba sobre astronomía?</opcio>
+  <resposta>1</resposta>
+ </pregunta>
+  <pregunta id='pregunta05'>
+  <tipus>radio</tipus>
+  <text>¿Dondeconsigoalguienquemearreglelabarraespaciadorademiteclado?</text>
+  <opcio>En un fontanero</opcio>
+  <opcio>Llamando a un electricista</opcio> 
+  <opcio>Con reiniciar basta</opcio> 
+  <opcio>Llamando a un informático</opcio>
+  <resposta>4</resposta>
+ </pregunta>
+  <pregunta id='pregunta06'>
+  <tipus>radio</tipus>
+  <text>Si a una rueda dentada se le cae un diente….¿viene el ratón Pérez?</text>
+  <opcio>Sí, pero no deja dinero</opcio>
+  <opcio>No, imposible, negativo.</opcio> 
+  <opcio>Sí y te deja leche y unas galletas</opcio> 
+  <opcio>Prueba a reiniciar.</opcio>
+  <resposta>4</resposta>
+ </pregunta>
+  <pregunta id='pregunta07'>
+  <tipus>multiple</tipus>
+  <text>A ver si sabes de LoL, ¿que campeones son femeninos?</text>
+  <opcio>Tristana</opcio>
+  <opcio>Illaoi</opcio> 
+  <opcio>Teemo</opcio> 
+  <opcio>Kha'zix</opcio>
+  <resposta>1</resposta>
+  <resposta>2</resposta>
+ </pregunta>
+  <pregunta id='pregunta08'>
+  <tipus>multiple</tipus>
+  <text>¿Cuáles de los siguientes personajes son tiradores?</text>
+  <opcio>Lux</opcio>
+  <opcio>Lucian</opcio> 
+  <opcio>Miss Fortune</opcio> 
+  <opcio>Brrrraum</opcio>
+  <resposta>2</resposta>
+  <resposta>3</resposta>
+ </pregunta>
+  <pregunta id='pregunta09'>
+  <tipus>checkbox</tipus>
+  <text>¿Cual es el mejor sistema operativo de la historia de la informática?</text>
+  <opcio>Linux</opcio>
+  <opcio>Linux</opcio> 
+  <opcio>Linux</opcio> 
+  <opcio>Linux</opcio>
+  <resposta>1</resposta>
+  <resposta>2</resposta>  
+  <resposta>3</resposta>
+  <resposta>4</resposta>
+ </pregunta>
+  <pregunta id='pregunta10'>
+  <tipus>checkbox</tipus>
+  <text>¿Donde nacistes?</text>
+  <opcio>La Tierra</opcio>
+  <opcio>Saturno</opcio> 
+  <opcio>Sistema Solar</opcio> 
+  <opcio>Madagascar</opcio>
+  <resposta>1</resposta>
+  <resposta>3</resposta>
+ </pregunta>
+</preguntes>
