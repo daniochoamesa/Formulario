@@ -23,7 +23,7 @@ function w3_close() {
 }
 
 // fichoro xml que está en el servidor rawgit
-var url="https://rawgit.com/urbinapro/jsxml/master/xml/preguntas.xml";
+var url="https://rawgit.com/daniochoamesa/Formulario/master/xml/preguntas.xml";
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
