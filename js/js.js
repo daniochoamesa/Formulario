@@ -38,9 +38,9 @@ xhttp.send();
 // función personalizada que gestiona la respuesta a la petición de fichero
 function gestionarXml(dadesXml){
   var xmlDoc = dadesXml.responseXML;
-  document.getElementById("p1").innerHTML = xmlDoc.getElementsByTagName("title")[2].childNodes[0].nodeValue;
-  document.getElementById("t1").innerHTML = xmlDoc.getElementsByTagName("type")[2].childNodes[0].nodeValue;
-  document.getElementById("r1").innerHTML = xmlDoc.getElementsByTagName("answer")[2].childNodes[0].nodeValue;
+  document.getElementById("p1").innerHTML = xmlDoc.getElementsByTagName("text")[2].childNodes[0].nodeValue;
+  document.getElementById("t1").innerHTML = xmlDoc.getElementsByTagName("tipus")[2].childNodes[0].nodeValue;
+  document.getElementById("r1").innerHTML = xmlDoc.getElementsByTagName("resposta")[2].childNodes[0].nodeValue;
 
 
 }
