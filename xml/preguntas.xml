@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<note
-xmlns="http://www.w3schools.com"
+<questions xmlns="http://www.w3schools.com"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.w3schools.com note.xsd">
-<questions>
  <question id='pregunta01'>
   <type>text</type>
   <text>1x1x1+1x5-1/1</text>
