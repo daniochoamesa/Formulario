@@ -85,14 +85,6 @@ function gestionarXml(dadesXml){
 	for (i = 0; i<10; i++) {
 		tipo = xmlDoc.getElementsByTagName("type")[i].innerHTML;
 		switch(tipo) {
-			case "select":
-				crearDivPregunta(i);
-				imprimirTituloPregunta(i, xmlDoc);
-				imprimirOpcionesSelect(i, xmlDoc);
-				preguntasSelect.push(i);
-				respuestasSelect.push(parseInt(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("answer")[0].innerHTML));
-				valorRespuestaSelect.push(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("option")[respuestasSelect[i]].innerHTML);
-				break;
 			case "text":
 				crearDivPregunta(i);
 				imprimirTituloPregunta(i, xmlDoc);
@@ -101,12 +93,13 @@ function gestionarXml(dadesXml){
 				preguntasText.push(i);
 				respuestasText.push(parseInt(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("answer")[0].innerHTML));
 				break;
-			case "checkbox":
+			case "select":
 				crearDivPregunta(i);
 				imprimirTituloPregunta(i, xmlDoc);
-				imprimirCheckBox(i, xmlDoc);
-				preguntasCheckBox.push(i);
-				agregarRespuestas(i, xmlDoc, respuestasCheckBox, valorRespuestasCheckBox);
+				imprimirOpcionesSelect(i, xmlDoc);
+				preguntasSelect.push(i);
+				respuestasSelect.push(parseInt(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("answer")[0].innerHTML));
+				valorRespuestaSelect.push(xmlDoc.getElementsByTagName("question")[i].getElementsByTagName("option")[respuestasSelect[i]].innerHTML);
 				break;
 			case "radio":
 				crearDivPregunta(i);
@@ -121,6 +114,13 @@ function gestionarXml(dadesXml){
 				imprimirSelectMultiple(i, xmlDoc);
 				preguntasSelectMultiple.push(i);
 				agregarRespuestas(i, xmlDoc, respuestasSelectMultiple, valorRespuestasSelectMultiple);
+				break;
+			case "checkbox":
+				crearDivPregunta(i);
+				imprimirTituloPregunta(i, xmlDoc);
+				imprimirCheckBox(i, xmlDoc);
+				preguntasCheckBox.push(i);
+				agregarRespuestas(i, xmlDoc, respuestasCheckBox, valorRespuestasCheckBox);
 				break;
 		}
 	}
