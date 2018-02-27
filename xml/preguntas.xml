@@ -3,17 +3,17 @@
 <questions>
  <question id='pregunta01'>
   <type>text</type>
-  <text>1x1x1+1x5-1/1</text>
+  <title>1x1x1+1x5-1/1</title>
   <answer>5</answer>
  </question>
  <question id='pregunta02'>
   <type>text</type>
-  <text>¿Que número es igual si se lee normal o del revés?</text>
+  <title>¿Que número es igual si se lee normal o del revés?</title>
   <answer>Capicua</answer>
  </question>
  <question id='pregunta03'>
   <type>select</type>
-  <text>¿Que tipo de ser vivo eres?</text>
+  <title>¿Que tipo de ser vivo eres?</title>
   <option>Perro</option>
   <option>Gato</option> 
   <option>Rinoceronte</option>
@@ -22,7 +22,7 @@
  </question>
  <question id='pregunta04'>
   <type>select</type>
-  <text>Y tu edad,¿que?¿Cual es?</text>
+  <title>Y tu edad,¿que?¿Cual es?</title>
   <option>Esto no se pregunta</option>
   <option>73</option>
   <option>Azul</option> 
@@ -31,7 +31,7 @@
  </question>
   <question id='pregunta05'>
   <type>radio</type>
-  <text>¿Dondeconsigoalguienquemearreglelabarraespaciadorademiteclado?</text>
+  <title>¿Dondeconsigoalguienquemearreglelabarraespaciadorademiteclado?</title>
   <option>En un fontanero</option>
   <option>Llamando a un electricista</option> 
   <option>Con reiniciar basta</option> 
@@ -40,7 +40,7 @@
  </question>
   <question id='pregunta06'>
   <type>radio</type>
-  <text>Si a una rueda dentada se le cae un diente….¿viene el ratón Pérez?</text>
+  <title>Si a una rueda dentada se le cae un diente….¿viene el ratón Pérez?</title>
   <option>Sí, pero no deja dinero</option>
   <option>No, imposible, negativo.</option> 
   <option>Sí y te deja leche y unas galletas</option> 
@@ -49,7 +49,7 @@
  </question>
   <question id='pregunta07'>
   <type>multiple</type>
-  <text>A ver si sabes de LoL, ¿que campeones son femeninos?</text>
+  <title>A ver si sabes de LoL, ¿que campeones son femeninos?</title>
   <option>Tristana</option>
   <option>Illaoi</option> 
   <option>Teemo</option> 
@@ -59,7 +59,7 @@
  </question>
   <question id='pregunta08'>
   <type>multiple</type>
-  <text>¿Cuáles de los siguientes personajes son tiradores?</text>
+  <title>¿Cuáles de los siguientes personajes son tiradores?</title>
   <option>Lux</option>
   <option>Lucian</option> 
   <option>Miss Fortune</option> 
@@ -69,7 +69,7 @@
  </question>
   <question id='pregunta09'>
   <type>checkbox</type>
-  <text>¿Cual es el mejor sistema operativo de la historia de la informática?</text>
+  <title>¿Cual es el mejor sistema operativo de la historia de la informática?</title>
   <option>Linux</option>
   <option>Linux</option> 
   <option>Linux</option> 
@@ -81,7 +81,7 @@
  </question>
   <question id='pregunta10'>
   <type>checkbox</type>
-  <text>¿Donde nacistes?</text>
+  <title>¿Donde nacistes?</title>
   <option>La Tierra</option>
   <option>Saturno</option> 
   <option>Sistema Solar</option> 
